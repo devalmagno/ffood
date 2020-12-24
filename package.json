@@ -1,0 +1,16 @@
+{
+  "name": "ffood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devalmagno/ffood.git",
+  "author": "devalmagno <devalmagno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "next dev"
+  }
+}

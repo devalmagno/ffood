@@ -1,0 +1,102 @@
+#header {
+    height: 550px;
+    width: 100vw;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#header .burguerHome {
+    height: 99%;
+    width: 100%;
+}
+
+#header .burguerInfo {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Poppins;
+    color: #F1F2F6;
+}
+
+#header .burguerInfo .nickname {
+    position: relative;
+    font-size: 12px;
+}
+
+#header .burguerInfo .burguerCall {
+    font-size: 12px;   
+}
+
+#header .button {
+    font-family: Poppins;
+    color: #F1F2F6;
+    font-size: 14px;
+    width: 120px;
+    height: 36px;
+
+    margin-top: 10px;
+    background-color: #F58300;
+    border: 0;
+    border-radius: 5px;
+}
+
+#header .button:hover {
+    background-color: #CC6D00;
+    cursor: pointer;
+}
+
+#header .buttonTop {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+#header .headerBar {
+    height: 1%;
+    width: 100%;
+    background-color: #0B0A0A;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content .burguerContainer {
+    margin-top: 25px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+#content .burguerContainer .burguerName {
+    margin: 15px 0px 0px 0px;
+}
+
+#content .burguerContainer .burguerDescription {
+    margin: 0px;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .buguerHome {
+        display: none;
+    }
+
+    .burguerHomeMobile {
+        height: 99%;
+        width: 100%;
+    }
+}
